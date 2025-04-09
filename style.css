@@ -4,6 +4,7 @@
     box-sizing: border-box;
     box-shadow: none;
     font-family: sans-serif;
+    /* border: 2px solid red; */
 }
 
 a{
@@ -160,7 +161,7 @@ button:hover{
 }
 
 #sec3 .container-sec3 img{
-    width:410px;
+    width:400px;
 }
 
 .image{
