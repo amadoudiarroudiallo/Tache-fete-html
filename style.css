@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background: url("img/bg-masthead.jpg");
+    height: 100vh;
+}
+header .logo{
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    flex-wrap: wrap;
+
+}
+
+header .info{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+    gap: 25PX;
+}
+
+header .container a:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    color: orangered;
+    font-weight: bold;
+}
+
+header .main{
+    color: #fff ;
+    padding-top: 12%;
+    text-align: center;
+    margin: auto 30% ;
+}
+
+header .main p{
+    margin-top: 20px;
+}
+
+header button{
+    margin-top: 20px;
+    width: 15rem;
+    height: 3rem;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 20PX;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+/*------------- fin de mon header -------------*/
+
+
+/* ---------------- first section ---------------- */
+#sec1{
+    background-color: orangered;
+    height: 70vh;
+    color: #fff;
+    text-align: center;
+    padding: 9% 25% ;   
+}
+
+#sec1 .container-sec1 h1{
+    font-size: 45px;
+    margin: 20px auto;
+}
+
+#sec1 button{
+    border: none;
+    margin-top: 20px;
+    width: 15rem;
+    height: 3rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 20PX;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#sec1 button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    border: 2px solid purple;
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    box-shadow: 1px 3px 10px 0px #fff;
+}
+/* ---------------- exit first section ---------------- */
+
+/* ---------------- second section ---------------- */
+#sec2 {
+    height: 60vh;
+    padding-top: 10%;
+    text-align: center;
+    background-color: rgb(235, 232, 232);
+    border-bottom: 1px solid rgb(235, 232, 232);
+    box-shadow: 2px 5px 3px rgb(235, 232, 232);
+}
+#sec2 .container-sec2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sec2 .container-sec2 i{
+    font-size: 50px;
+    color: orangered;
+}
+
+#sec2 .container-sec2 .texte{
+    margin-top: 20px;
+}
+
+#sec2 .container-sec2 .texte p{
+    margin: 10px 50px;
+}
+
+#sec2 .container-sec2 .texte h3{
+    color: orangered;
+}
+/* ---------------- Exit Second Section ---------------- */
+
+/* ---------------- Section Three ---------------- */
+#sec3 .container-sec3{
+   margin-top: 20px;
+}
+
+#sec3 .container-sec3 img{
+    width:410px;
+}
+
+.image{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: auto auto;
+    gap: 10px;
+    margin: auto;
+    text-align: center;
+}
+/* ---------------- Exit Section Three ---------------- */
+
+
+/* ---------------- Section Four ---------------- */
+.container-sec4{
+    background-color: rgb(16, 18, 49);
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    padding: 10% ;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+#sec4 button{
+    border: none;
+    margin-top: 20px;
+    width: 15rem;
+    height: 3rem;
+    background-color: #fff;
+    color: black;
+    border-radius: 20PX;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#sec4 button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+/* ---------------- Exit Section Four ---------------- */
+
+
+/* ---------------- Section footer ---------------- */
+footer{
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+footer .control{
+    width: 32%;
+    height: 3em;
+    margin: 20px;
+}
+
+footer button{
+    border: none;
+    margin-top: 20px;
+    width: 25rem;
+    height: 3rem;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 20PX;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+footer button:hover{
+    overflow: hidden;
+    transform: scale(1.1);
+    border: 2px solid orangered;
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+footer .sescond{
+    margin-top: 40px;
+}
+
+footer .sescond i{
+   color: orangered;
+   font-size: 40px;
+}
+
+footer .sescond p{
+    margin-top: 20px;
+}
+
+hr{
+    margin-top: 35px;
+}
+#footer{
+    height: 10vh;
+    margin-top: 45px;
+    letter-spacing: 20px;
+    font-family: monospace;
+
+    /* border-top: 2px solid red; */
+}
+
+
+@media screen and (max-width: 991px){
+    header .main {
+        color: #fff ;
+        padding-top: 12%;
+        margin: 22% 0 ;
+    }
+    header .main p {
+        padding: 29px;
+    }
+    header button{
+       margin-top: 5em;
+    }
+    
+
+    #sec1{
+        padding: 10% 0 ;   
+    }
+    #sec1 button{
+        margin-top: 6em;
+    }
+    #sec1 p {
+        padding: 29px;
+    }
+
+    #sec2 .container-sec2{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+#sec3{
+    margin-top: 30vh;
+}
+
+.image{
+    display: block;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+#sec4{
+    margin-top: 2vh;
+}
+footer .control{
+    width: 90%;
+    height: 3em;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: 2px solid #000;
+}
+
+.controle{
+    margin-top: 40px;
+    border: 2px solid #000;
+}
+
+footer button{
+    max-width: 80%;
+}
+}
